@@ -16,7 +16,7 @@
     "headers": [
     {
       "source": "/(.*)",
-        "dest": "./index.js",
+       
       "headers": [
        
         {  "Access-Control-Allow-Origin": "*" },
