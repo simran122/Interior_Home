@@ -25,7 +25,7 @@ function Blog() {
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
-    axios.defaults.withCredentials = true;
+    
     const handleSubmit = (e) => {
         e.preventDefault();
         const response = axios.post("https://interior-home-1dju.vercel.app/", form1).then((res) => {
