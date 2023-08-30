@@ -4,7 +4,7 @@ import Detail from './models/Detail.js'
 import bodyParser from "body-parser";
 import cors from 'cors';
 const app = express()
-app.use(cors({origin:"*"}))
+app.use(cors())
 app.use(bodyParser.json());
 
 const mongoDB = "mongodb+srv://Simran2612:S8g2S8qFvVqmIXcT@cluster0.njvujv3.mongodb.net/?retryWrites=true&w=majority";
