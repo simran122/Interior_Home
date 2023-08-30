@@ -31,7 +31,7 @@ function About() {
         }));
 
     };
-    axios.defaults.withCredentials = true;
+   
     const handleSubmit = (e) => {
         e.preventDefault();
         const response = axios.post("https://interior-home-1dju.vercel.app/", form2).then((res) => {
