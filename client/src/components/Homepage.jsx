@@ -10,14 +10,14 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import IconButton from '@mui/material/IconButton';
-import photo5 from './img/photo5.png'
-import logo1 from './svg/logo1.svg'
-import logo2 from './svg/logo2.svg'
-import logo3 from './svg/logo3.svg'
-import logo4 from './svg/logo4.svg'
-import logo5 from './svg/logo5.svg'
-import photo6 from './img/photo6.png'
-import photo7 from './img/photo7.png'
+import mith from './img/photo5.png'
+import modern from './svg/logo1.svg'
+import vs from './svg/logo2.svg'
+import brand from './svg/logo3.svg'
+import nature from './svg/logo4.svg'
+import design from './svg/logo5.svg'
+import gala from './img/photo6.png'
+import roll from './img/photo7.png'
 import kitchen from './img/kitchen.png'
 import living from './img/living.png'
 import interior from './img/interior.png'
@@ -207,7 +207,7 @@ function Homepage() {
                         xs={12} sm={8} item md={4} >
                         <Box sx={{ bgcolor: "white", border: "1px solid transparent", borderRadius: "20px", p: { xs: "1rem", sm: "2rem", md: "1rem", lg: "2rem" } }}>
                             <Stack direction="row" spacing={2}>
-                                <img style={{ borderRadius: "50%", maxWidth: "3rem", height: "3rem" }} src={photo5} alt="profile1" />
+                                <img style={{ borderRadius: "50%", maxWidth: "3rem", height: "3rem" }} src={mith} alt="profile1" />
                                 <Stack direction="column">
                                     <Typography variant="h6" sx={{ color: "primary-main" }}>
                                         Natasha Mith
@@ -232,7 +232,7 @@ function Homepage() {
                     <Grid xs={12} sm={8} item md={4} >
                         <Box sx={{ bgcolor: "white", border: "1px solid transparent", borderRadius: "20px", p: { xs: "1rem", sm: "2rem", md: "1rem", lg: "2rem" } }}>
                             <Stack direction="row" spacing={2}>
-                                <img style={{ borderRadius: "50%", maxWidth: "3rem", height: "3rem" }} src={photo6} alt="profile1" />
+                                <img style={{ borderRadius: "50%", maxWidth: "3rem", height: "3rem" }} src={gala} alt="profile1" />
                                 <Stack direction="column">
                                     <Typography variant="h6" sx={{ color: "primary-main" }}>
                                         Raymond Gala
@@ -258,7 +258,7 @@ function Homepage() {
                     <Grid xs={12} sm={8} item md={4} >
                         <Box sx={{ bgcolor: "white", border: "1px solid transparent", borderRadius: "20px", p: { xs: "1rem", sm: "2rem", md: "1rem", lg: "2rem" }, }}>
                             <Stack direction="row" spacing={2}>
-                                <img style={{ borderRadius: "50%", maxWidth: "3rem", height: "3rem" }} src={photo7} alt="profile1" />
+                                <img style={{ borderRadius: "50%", maxWidth: "3rem", height: "3rem" }} src={roll} alt="profile1" />
                                 <Stack direction="column">
                                     <Typography variant="h6" sx={{ color: "primary-main" }}>
                                         Benny Roll
@@ -292,11 +292,11 @@ function Homepage() {
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.8, delay: 0.2 }}
                 sx={{ mx: "auto", display: { xs: "none", sm: "flex" }, justifyContent: "center", gap: "3rem" }}>
-                <img style={{ width: "7%", minWidth: "80px" }} src={logo1} alt="logo1" />
-                <img style={{ width: "7%", minWidth: "80px" }} src={logo2} alt="logo2" />
-                <img style={{ width: "7%", minWidth: "80px" }} src={logo3} alt="logo3" />
-                <img style={{ width: "7%", minWidth: "80px" }} src={logo4} alt="logo4" />
-                <img style={{ width: "7%", minWidth: "100px" }} src={logo5} alt="logo5" />
+                <img style={{ width: "7%", minWidth: "80px" }} src={modern} alt="logo1" />
+                <img style={{ width: "7%", minWidth: "80px" }} src={vs} alt="logo2" />
+                <img style={{ width: "7%", minWidth: "80px" }} src={brand} alt="logo3" />
+                <img style={{ width: "7%", minWidth: "80px" }} src={nature} alt="logo4" />
+                <img style={{ width: "7%", minWidth: "100px" }} src={design} alt="logo5" />
             </Box>
             <Box
 
