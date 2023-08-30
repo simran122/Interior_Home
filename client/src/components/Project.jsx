@@ -1,8 +1,8 @@
 import React from 'react'
 import './style/Style.css'
 import { Box, Typography, ImageList, ImageListItem, ImageListItemBar, Button } from '@mui/material'
-import vector from './img/vector1.png'
-import vect from './img/vector2.png'
+import vector from './img/vecto.png'
+import vect from './img/vec.png'
 import { useEffect } from 'react'
 import { motion, } from 'framer-motion';
 const itemData = [
