@@ -260,7 +260,7 @@ function About() {
                         sx={{
                             width: "35rem",
                             maxWidth: "80%",
-minHeight:"10rem" ,height:"100%"
+                             minHeight:"10rem" ,height:"100%",
                             '.MuiInputLabel-root': {
                                 fontSize: "1.2rem"
                             }, '.css-66dh3a-MuiInputBase-input-MuiInput-input': {
