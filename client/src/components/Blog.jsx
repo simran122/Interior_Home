@@ -3,6 +3,7 @@ import { Box, Button, Typography, Stack, FormControl, Input, Checkbox, } from '@
 import { useState, useEffect } from 'react'
 import axios from 'axios'
 import './style/Style.css'
+import door from './img/door.png'
 import white from './img/white.png'
 import black from './img/black.png'
 import vector from './img/vec.png'
@@ -68,7 +69,7 @@ function Blog() {
         <>
             <Box component={motion.div}
                 initial={initial}
-                whileInView={whileInView} sx={{ backgroundImage: "url('src/components/img/21.png')", maxWidht: "100%", minHeight: "22rem", objectFit: "contain", position: "relative" }} />
+                whileInView={whileInView} sx={{ backgroundImage: `url(${door})`, maxWidht: "100%", minHeight: "22rem", objectFit: "contain", position: "relative" }} />
             <Box sx={{ display: "flex", justifyContent: "center", mx: "auto", my: "4rem", gap: "1.5rem", px: "1rem" }}>
                 <Box component={motion.div}
                     initial={initial}
