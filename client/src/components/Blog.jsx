@@ -27,7 +27,7 @@ function Blog() {
     axios.defaults.withCredentials = true;
     const handleSubmit = (e) => {
         e.preventDefault();
-        const response = axios.post("http://localhost:3000/", form1).then((res) => {
+        const response = axios.post("https://interior-home.vercel.app/", form1).then((res) => {
             console.log(res)
 
         })
