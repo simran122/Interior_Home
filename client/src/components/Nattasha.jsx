@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box, Typography, Stack } from '@mui/material'
-import julie from './img/5.png'
+import julie from './img/natt.png'
 import { useEffect } from 'react';
 import { motion, } from 'framer-motion'
 function JohnSmith() {
