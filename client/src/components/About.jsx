@@ -7,6 +7,7 @@ import sofa from './img/sofa.png'
 import john from './img/smith.png'
 import julie from './img/natt.png'
 import owen from './img/nora.png'
+import lamp from './img/lamp.png'
 import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
@@ -89,7 +90,7 @@ function About() {
                         duration: 0.6, delay: 0.1, ease: easeing
                     }
                 }}
-                sx={{ backgroundImage: "url('src/components/img/1.png')", maxWidht: "100%", minHeight: "22rem", objectFit: "contain", position: "relative" }}>
+                sx={{ backgroundImage: `url(${lamp})`, maxWidht: "100%", minHeight: "22rem", objectFit: "contain", position: "relative" }}>
                 <Box sx={{ maxWidth: "32rem", textAlign: "center", backgroundColor: "white", position: "absolute", border: "0 solid transparent", left: "50%", bottom: 0, transform: "translate(-50%,0)", px: { xs: "1rem", sm: "2rem" }, py: "1rem", borderRadius: "20px 20px 0 0" }}>
                     <Typography variant='h4' sx={{ color: "primary.main" }}>About Us</Typography>
                     <Typography variant='h5' sx={{ color: "primary.light", fontFamily: "Jost" }}>Home/About Us</Typography>
