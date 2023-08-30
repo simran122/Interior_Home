@@ -38,7 +38,12 @@ app.post('/', async (req, res) => {
 
 })
 
+app.get("/",(req,res)=>{
 
+   res.send("hello")
+   console.log(working)
+}
+   )
 
 
 app.listen(3000, () => {
