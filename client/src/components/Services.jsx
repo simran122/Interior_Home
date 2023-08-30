@@ -4,6 +4,7 @@ import vector from './img/vector.png'
 import computer from './img/computer.png'
 import two from './img/two.png'
 import kit from './img/kit.png'
+import flower from './img/flower.png'
 import glass from './img/glass.png'
 import { useNavigate } from 'react-router-dom'
 import './style/Style.css'
@@ -42,7 +43,7 @@ function Services() {
             <Box component={motion.div}
                 initial={initial}
                 whileInView={whileInView}
-                sx={{ backgroundImage: "url('src/components/img/7.png')", maxWidht: "100%", minHeight: "22rem", objectFit: "contain", position: "relative" }}>
+                sx={{ backgroundImage: `url(${flower})`, maxWidht: "100%", minHeight: "22rem", objectFit: "contain", position: "relative" }}>
                 <Box sx={{ maxWidth: "32rem", textAlign: "center", backgroundColor: "white", position: "absolute", border: "0 solid transparent", left: "50%", bottom: 0, transform: "translate(-50%,0)", px: { xs: "1rem", sm: "2rem" }, py: "1rem", borderRadius: "20px 20px 0 0" }}>
                     <Typography variant='h4' sx={{ color: "primary.main" }}>Services</Typography>
                     <Typography variant='h5' sx={{ color: "primary.light", fontFamily: "Jost" }}>Home/Services</Typography>
