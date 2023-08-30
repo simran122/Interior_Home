@@ -10,6 +10,12 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import IconButton from '@mui/material/IconButton';
+import photo from './img/photo.png'
+import curve from './img/curve.png'
+import chair from './img/chair.png'
+import wood from './img/wood.png'
+import sofas from './img/sofas.png'
+import drawer from './img/drawer.png'
 import mith from './img/mith.png'
 import modern from './svg/logo1.svg'
 import vs from './svg/logo2.svg'
@@ -54,7 +60,7 @@ function Homepage() {
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.4 }}
                 sx={{
-                    maxWidth: "100%", minHeight: "auto", backgroundImage: "url('src/components/img/photo.png')", backgroundSize: { xs: "auto 500px", sm: "cover" }, backgroundPosition: "center center", backgroundRepeat: "no-repeat", objectFit: "contain", mt: "1.8rem", py: { xs: "3rem", sm: "4rem", md: "3rem", lg: "14rem" },
+                    maxWidth: "100%", minHeight: "auto", backgroundImage: `url(${photo})`, backgroundSize: { xs: "auto 500px", sm: "cover" }, backgroundPosition: "center center", backgroundRepeat: "no-repeat", objectFit: "contain", mt: "1.8rem", py: { xs: "3rem", sm: "4rem", md: "3rem", lg: "14rem" },
                     borderRadius: { lg: " 0 0 0 18rem" }
                 }} >
                 <Box sx={{ maxWidth: "35.43", ml: { xs: "2rem", sm: "5rem", md: "12rem" }, mr: { xs: "2rem", sm: "5rem"} }}>
@@ -177,7 +183,7 @@ function Homepage() {
                     transition={{ duration: 0.7 }}
                     alignItems="center" xs={12} item sm={12} md={7} sx={{ textAlign: "center", }}>
                     <Box className="image" sx={{
-                        backgroundImage: "url('src/components/img/photo4.png')", backgroundRepeat: "no-repeat", backgroundSize: "cover", objectFit: "contain", maxWidth: { xs: "20rem", sm: "40rem" }, minHeight: { xs: "20rem", sm: "30rem" }, borderRadius: "0 10rem 0 10rem"
+                        backgroundImage: `url(${curve})`, backgroundRepeat: "no-repeat", backgroundSize: "cover", objectFit: "contain", maxWidth: { xs: "20rem", sm: "40rem" }, minHeight: { xs: "20rem", sm: "30rem" }, borderRadius: "0 10rem 0 10rem"
                     }}>
 
                     </Box>
@@ -334,8 +340,7 @@ function Homepage() {
                                 component="img"
                                 alt="green iguana"
                                 height="325"
-                                image='src/components/img/photo8.png'
-
+                                image=`url(${chair})`
                             />
                             <Stack direction="row" spacing={small ? 6.5 : 10}>
                                 <CardContent>
@@ -371,8 +376,7 @@ function Homepage() {
                                 component="img"
                                 alt="green iguana"
                                 height="325"
-                                image='src/components/img/photo9.png'
-
+                                image=`url(${drawer})`
                             />
                             <Stack direction="row" spacing={small ? 6.5 : 10}>
                                 <CardContent>
@@ -408,7 +412,7 @@ function Homepage() {
                                 component="img"
                                 alt="green iguana"
                                 height="325"
-                                image='src/components/img/photo10.png'
+                                image=`url(${wood})`
 
                             />
                             <Stack direction="row" spacing={small ? 6.5 : 10}>
@@ -448,7 +452,7 @@ function Homepage() {
                                 component="img"
                                 alt="green iguana"
                                 height="325"
-                                image='src/components/img/photo11.png'
+                                image=`url(${sofas})`
 
                             />
                             <Stack direction="row" spacing={small ? 6.5 : 10}>
