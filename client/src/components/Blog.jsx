@@ -3,9 +3,9 @@ import { Box, Button, Typography, Stack, FormControl, Input, Checkbox, } from '@
 import { useState, useEffect } from 'react'
 import axios from 'axios'
 import './style/Style.css'
-import white from './img/22.png'
-import black from './img/23.png'
-import vector from './img/vector2.png'
+import white from './img/white.png'
+import black from './img/black.png'
+import vector from './img/vec.png'
 import { motion, } from 'framer-motion';
 
 
