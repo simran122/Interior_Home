@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box, Typography, Stack } from '@mui/material'
-import photo4 from './img/4.png'
+import john from './img/4.png'
 import { useEffect } from 'react';
 import { motion, } from 'framer-motion'
 function JohnSmith() {
@@ -55,7 +55,7 @@ function JohnSmith() {
                 whileInView={whileInView}
 
                 sx={{ my: "3rem", display: "flex", justifyContent: "center", flexDirection: { xs: "column", sm: "row" }, p: "1.5rem", gap: "2rem", maxWidth: { xs: "100%", sm: "70%" }, mx: { xs: "1.5rem", sm: "auto" } }}>
-                <motion.img initial={preHover} whileHover={hovered} src={photo4} style={{ borderRadius: "20px", maxWidth: "auto", minHeight: "auto" }} />
+                <motion.img initial={preHover} whileHover={hovered} src={john} style={{ borderRadius: "20px", maxWidth: "auto", minHeight: "auto" }} />
                 <Box sx={{ my: "1rem" }}>
                     <Typography variant='h2'>John Smith</Typography>
                     <Typography variant='h6' sx={{ fontFamily: "Jost", color: "primary.light", mb: "1.4rem" }}>Designer</Typography>
