@@ -2,9 +2,9 @@ import express from 'express'
 import mongoose from 'mongoose';
 import Detail from './models/Detail.js'
 import bodyParser from "body-parser";
-
+import cors from 'cors';
 const app = express()
-
+app.use(cors({origin:"*"}))
 app.use(bodyParser.json());
 
 const mongoDB = "mongodb+srv://Simran2612:S8g2S8qFvVqmIXcT@cluster0.njvujv3.mongodb.net/?retryWrites=true&w=majority";
@@ -15,12 +15,7 @@ mongoose.connect(mongoDB)
         console.log(err)
     })
 
-app.use((req, res, next) => {
-    res.setHeader('Access-Control-Allow-Origin', 'https://interior-home-sigma.vercel.app');
-    res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
-    res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
-    next();
-});
+
 app.post('/', async (req, res) => {
     console.log(req.body)
     const newUser = new Detail(req.body)
