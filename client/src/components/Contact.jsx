@@ -4,6 +4,7 @@ import { Box, Typography, Button, Stack, Input, FormControl } from '@mui/materia
 import './style/Style.css'
 import vector from './img/vec.png'
 import photo from './img/phot.png'
+import counter from './img/counter.png'
 import axios from 'axios'
 import { motion, } from 'framer-motion';
 function Contact() {
@@ -68,7 +69,7 @@ function Contact() {
         <>
             <Box component={motion.div}
                 initial={initial}
-                whileInView={whileInView} sx={{ backgroundImage: "url('src/components/img/24.png')", maxWidht: "100%", minHeight: "22rem", objectFit: "cover", backgroundSize: "cover", backgroundRepeat: "no-repeat", position: "relative" }}>
+                whileInView={whileInView} sx={{ backgroundImage: `url(${counter})`, maxWidht: "100%", minHeight: "22rem", objectFit: "cover", backgroundSize: "cover", backgroundRepeat: "no-repeat", position: "relative" }}>
                 <Box sx={{ maxWidth: "32rem", textAlign: "center", backgroundColor: "white", position: "absolute", border: "0 solid transparent", left: "50%", bottom: 0, transform: "translate(-50%,0)", px: { xs: "1rem", sm: "2rem" }, py: "1rem", borderRadius: "20px 20px 0 0" }}>
                     <Typography variant='h4' sx={{ color: "primary.main" }}>Contact</Typography>
                     <Typography variant='h5' sx={{ color: "primary.light", fontFamily: "Jost" }}>Home/Contact</Typography>
