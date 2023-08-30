@@ -3,9 +3,9 @@ import { Box, Button, Typography, Stack, FormControl, Input, Checkbox, } from '@
 import { useState, useEffect } from 'react'
 import axios from 'axios'
 import './style/Style.css'
-import photo22 from './img/22.png'
-import photo23 from './img/23.png'
-import vector1 from './img/vector2.png'
+import white from './img/22.png'
+import black from './img/23.png'
+import vector from './img/vector2.png'
 import { motion, } from 'framer-motion';
 
 
@@ -74,7 +74,7 @@ function Blog() {
                     initial={initial}
                     whileInView={whileInView} >
                     <Typography variant='h2'>Let’s Get Solution for Building<br /> Construction Work</Typography>
-                    <motion.img initial={preHover} whileHover={hovered} style={{ borderRadius: "20px", width: "40rem", maxWidth: "100%", margin: "1.5rem 0 ", }} src={photo22} />
+                    <motion.img initial={preHover} whileHover={hovered} style={{ borderRadius: "20px", width: "40rem", maxWidth: "100%", margin: "1.5rem 0 ", }} src={white} />
 
                     <Typography variant='h6' sx={{ fontFamily: "Jost", color: "primary.light" }}>Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.posuere <br />
                         in.Contrary to popular belief.There are many variations of passages of Lorem Ipsum<br /> available, but the majority have suffered alteration in some form, by injecthumour <br /> or randomised words which don't look even slightly believable.</Typography>
@@ -132,7 +132,7 @@ function Blog() {
                     <Box component={motion.div}
                         initial={initial}
                         whileInView={whileInView} >
-                        <motion.img initial={preHover} whileHover={hovered} style={{ borderRadius: "20px", width: "40rem", maxWidth: "100%", }} src={photo23} />
+                        <motion.img initial={preHover} whileHover={hovered} style={{ borderRadius: "20px", width: "40rem", maxWidth: "100%", }} src={black} />
                         <Typography variant='h6' sx={{ fontFamily: "Jost", color: "primary.light", my: "0.7rem" }}>
                             Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.posuere<br />
                             in.Contrary to popular belief.There are many variations of passages of Lorem Ipsum <br />
@@ -197,7 +197,7 @@ function Blog() {
                             </FormControl>
                             <Button onClick={handleSubmit} sx={{ mb: { xs: "2rem", sm: "2rem", md: 0, }, bgcolor: "primary.main", width: "10rem", borderRadius: "20px" }} variant="contained">
                                 <Typography sx={{ color: "white", textTransform: "none", mr: "0.5rem", fontFamily: "Jost" }} variant='h6'> Send Now</Typography>
-                                <img src={vector1} alt='vector' />
+                                <img src={vector} alt='vector' />
                             </Button>
 
 
