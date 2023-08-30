@@ -2,8 +2,8 @@ import React from 'react'
 import { useState, useEffect } from 'react'
 import { Box, Typography, Button, Stack, Input, FormControl } from '@mui/material'
 import './style/Style.css'
-import vector from './img/vector2.png'
-import photo from './img/25.png'
+import vector from './img/vec.png'
+import photo from './img/photo.png'
 import axios from 'axios'
 import { motion, } from 'framer-motion';
 function Contact() {
