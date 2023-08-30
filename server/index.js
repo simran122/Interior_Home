@@ -8,7 +8,7 @@ app.use(cors())
 app.use(bodyParser.json());
 app.use((req,res,next)=>{
    if(req.method==="OPTIONS"{
-     res.header('Access-Control-Allow-Methods', 'GET, OPTIONS, PATCH, DELETE, POST, PUT');
+     res.header('Access-Control-Allow-Methods', 'GET,  PATCH, DELETE, POST, PUT');
        return res.status(200).json({});
    }
  
