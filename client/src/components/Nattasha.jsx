@@ -1,6 +1,7 @@
 import React from 'react'
 import { Box, Typography, Stack } from '@mui/material'
 import julie from './img/natt.png'
+import employ from './img/employ.png'
 import { useEffect } from 'react';
 import { motion, } from 'framer-motion'
 function JohnSmith() {
@@ -38,7 +39,7 @@ function JohnSmith() {
                 initial={initial}
                 whileInView={whileInView}
 
-                sx={{ backgroundImage: "url('src/components/img/photo12.png')", maxWidht: "100%", minHeight: "22rem", objectFit: "contain", position: "relative", backgroundPosition: { xs: "center bottom", sm: "center center" }, backgroundSize: "cover", backgroundRepeat: "no-repeat" }}>
+                sx={{ backgroundImage: `url(${employ})`, maxWidht: "100%", minHeight: "22rem", objectFit: "contain", position: "relative", backgroundPosition: { xs: "center bottom", sm: "center center" }, backgroundSize: "cover", backgroundRepeat: "no-repeat" }}>
                 <Box sx={{ maxWidth: "32rem", textAlign: "center", backgroundColor: "white", position: "absolute", border: "0 solid transparent", left: "50%", bottom: 0, transform: "translate(-50%,0)", px: { xs: "1rem", sm: "2rem" }, py: "1rem", borderRadius: "20px 20px 0 0" }}>
                     <Typography variant='h4' sx={{ color: "primary.main" }}>Professional Single</Typography>
                     <Typography variant='h5' sx={{ color: "primary.light", fontFamily: "Jost" }}>Home/Team Single</Typography>
