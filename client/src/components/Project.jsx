@@ -2,7 +2,7 @@ import React from 'react'
 import './style/Style.css'
 import { Box, Typography, ImageList, ImageListItem, ImageListItemBar, Button } from '@mui/material'
 import vector from './img/vector1.png'
-import vector1 from './img/vector2.png'
+import vect from './img/vector2.png'
 import { useEffect } from 'react'
 import { motion, } from 'framer-motion';
 const itemData = [
@@ -150,7 +150,7 @@ function Project() {
                     </Typography>
                     <Button sx={{ mb: { xs: "2rem", sm: "2rem", md: 0, }, bgcolor: "primary.main" }} variant="contained">
                         <Typography sx={{ color: "white", textTransform: "none", mr: "0.5rem", fontFamily: "Jost" }} variant='h6'> Read More</Typography>
-                        <img src={vector1} alt='vector' />
+                        <img src={vect} alt='vector' />
                     </Button>
                 </Box>
 
