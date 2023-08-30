@@ -340,7 +340,7 @@ function Homepage() {
                                 component="img"
                                 alt="green iguana"
                                 height="325"
-                                image={`url(${chair})`}
+                                image={chair}
                             />
                             <Stack direction="row" spacing={small ? 6.5 : 10}>
                                 <CardContent>
@@ -376,7 +376,7 @@ function Homepage() {
                                 component="img"
                                 alt="green iguana"
                                 height="325"
-                                image={`url(${drawer})`}
+                                image={drawer}
                             />
                             <Stack direction="row" spacing={small ? 6.5 : 10}>
                                 <CardContent>
@@ -412,7 +412,7 @@ function Homepage() {
                                 component="img"
                                 alt="green iguana"
                                 height="325"
-                                image={`url(${wood})`}
+                                image={wood}
 
                             />
                             <Stack direction="row" spacing={small ? 6.5 : 10}>
@@ -452,7 +452,7 @@ function Homepage() {
                                 component="img"
                                 alt="green iguana"
                                 height="325"
-                                image={`url(${sofas})`}
+                                image={sofas}
 
                             />
                             <Stack direction="row" spacing={small ? 6.5 : 10}>
