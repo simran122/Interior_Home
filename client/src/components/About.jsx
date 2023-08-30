@@ -34,7 +34,7 @@ function About() {
    
     const handleSubmit = (e) => {
         e.preventDefault();
-        const response = axios.post("https://interior-home-1dju.vercel.app/", form2).then((res) => {
+        const response = axios.post("https://interior-home-4dua.vercel.app/", form2).then((res) => {
             console.log(res)
 
         })
