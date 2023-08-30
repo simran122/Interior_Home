@@ -1,10 +1,10 @@
 import { React, useEffect } from 'react'
 import { Box, Typography, Button } from '@mui/material'
 import vector from './img/vector.png'
-import photo8 from './img/8.png'
-import photo9 from './img/9.png'
-import photo10 from './img/10.png'
-import photo11 from './img/11.png'
+import computer from './img/8.png'
+import two from './img/9.png'
+import kit from './img/10.png'
+import glass from './img/11.png'
 import { useNavigate } from 'react-router-dom'
 import './style/Style.css'
 import { motion, } from 'framer-motion';
@@ -140,7 +140,7 @@ function Services() {
                 <Typography variant="h6" sx={{ fontFamily: "Jost", color: "#4D5053", mt: "1rem", textAlign: "center" }}>It is a long established fact will be distracted.Lorem Ipsum is simply dummy text of
                     <br />the printing and typesetting industry.</Typography>
                 <Box sx={{ display: "flex", justifyContent: "center", flexWrap: "wrap", gap: "4rem" }}>
-                    <motion.img initial={preHover} whileHover={hovered} style={{ width: "15rem", minHeight: "20%", marginTop: "2rem", maxWidth: "120%", borderRadius: "0 30px 0 150px" }} src={photo8} />
+                    <motion.img initial={preHover} whileHover={hovered} style={{ width: "15rem", minHeight: "20%", marginTop: "2rem", maxWidth: "120%", borderRadius: "0 30px 0 150px" }} src={computer} />
 
                     <Box
 
@@ -188,13 +188,13 @@ function Services() {
 
 
                     </Box>
-                    <motion.img initial={preHover} whileHover={hovered} style={{ width: "15rem", minHeight: "20%", marginTop: "2rem", maxWidth: "120%", borderRadius: "0 30px 0 150px" }} src={photo9} />
+                    <motion.img initial={preHover} whileHover={hovered} style={{ width: "15rem", minHeight: "20%", marginTop: "2rem", maxWidth: "120%", borderRadius: "0 30px 0 150px" }} src={two} />
                 </Box>
                 <Box component={motion.div}
                     initial={initial}
                     whileInView={whileInView}
                     sx={{ display: "flex", justifyContent: "center", flexWrap: "wrap", gap: "4rem" }}>
-                    <motion.img initial={preHover} whileHover={hovered} style={{ width: "15rem", minHeight: "20%", marginTop: "2rem", maxWidth: "120%", borderRadius: "0 30px 0 150px" }} src={photo10} />
+                    <motion.img initial={preHover} whileHover={hovered} style={{ width: "15rem", minHeight: "20%", marginTop: "2rem", maxWidth: "120%", borderRadius: "0 30px 0 150px" }} src={kit} />
 
                     <Box sx={{ my: "1.5rem" }}>
                         <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: "3rem" }}>
@@ -239,7 +239,7 @@ function Services() {
 
 
                     </Box>
-                    <motion.img initial={preHover} whileHover={hovered} style={{ width: "15rem", minHeight: "20%", marginTop: "2rem", maxWidth: "120%", borderRadius: "0 30px 0 150px" }} src={photo11} />
+                    <motion.img initial={preHover} whileHover={hovered} style={{ width: "15rem", minHeight: "20%", marginTop: "2rem", maxWidth: "120%", borderRadius: "0 30px 0 150px" }} src={glass} />
                 </Box>
 
             </Box>
