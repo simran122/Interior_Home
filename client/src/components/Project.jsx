@@ -3,6 +3,7 @@ import './style/Style.css'
 import { Box, Typography, ImageList, ImageListItem, ImageListItemBar, Button } from '@mui/material'
 import vector from './img/vecto.png'
 import vect from './img/vec.png'
+import bed from './img/bed.png'
 import { useEffect } from 'react'
 import { motion, } from 'framer-motion';
 const itemData = [
@@ -98,7 +99,7 @@ function Project() {
         <>
             <Box component={motion.div}
                 initial={initial}
-                whileInView={whileInView} sx={{ backgroundImage: "url('src/components/img/12.png')", maxWidht: "100%", minHeight: "22rem", objectFit: "contain", position: "relative" }}>
+                whileInView={whileInView} sx={{ backgroundImage:`url(${bed})`, maxWidht: "100%", minHeight: "22rem", objectFit: "contain", position: "relative" }}>
                 <Box sx={{ maxWidth: "32rem", textAlign: "center", backgroundColor: "white", position: "absolute", border: "0 solid transparent", left: "50%", bottom: 0, transform: "translate(-50%,0)", px: { xs: "1rem", sm: "2rem" }, py: "1rem", borderRadius: "20px 20px 0 0" }}>
                     <Typography variant='h4' sx={{ color: "primary.main" }}>Our Project</Typography>
                     <Typography variant='h5' sx={{ color: "primary.light", fontFamily: "Jost" }}>Home/Projects</Typography>
