@@ -20,7 +20,7 @@ function Contact() {
         console.log(form)
 
     };
-    axios.defaults.withCredentials = true;
+ 
 
     const handleSubmit = (e) => {
         e.preventDefault();
