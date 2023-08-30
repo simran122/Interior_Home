@@ -223,9 +223,9 @@ function About() {
                 initial={initial}
                 whileInView={whileInView}
 
-                sx={{ mx: "auto", my: "4rem", textAlign: "center", widht: "60%", maxWidht: "100%" }}>
+                sx={{ mx: "auto", my: "4rem", textAlign: "center", width: "100%", maxWidth: "40rem", display: "flex", justifyContent: "center", flexDirection: "column", alignItems: "center", p: "1rem" }}>
                 <Typography variant='h2'>Creative project? Let's have a<br />productive talk.</Typography>
-                <Box sx={{ mx: "auto", maxWidth: "50rem", display: "flex", gap: "2rem", my: "3rem", justifyContent: "center", flexWrap: "wrap" }}>
+                <Box sx={{mx: "auto", display: "flex", gap: "2rem", my: "3rem", justifyContent: "center", flexDirection: { xs: "column", sm: "row" }, flex: 1, mx: "1rem", width: "100%" }}>
                     <TextField id="standard-basic" label="Name" variant="standard" name="name" value={form2.name} onChange={handleChange} inputProps={{
                         style: {
                             height: "2rem", fontSize: "1.3rem", color: "black", fontFamily: "DM Serif Display", opacity: 1
@@ -233,7 +233,7 @@ function About() {
                     }} sx={{
                         '.MuiInputLabel-root': {
                             fontSize: "1.2rem"
-                        }
+                        },width: "100%"
                     }} />
                     <TextField id="standard-basic" label="Email" type="email" variant="standard" name="email" value={form2.email} onChange={handleChange} inputProps={{
                         style: {
@@ -242,39 +242,11 @@ function About() {
                     }} sx={{
                         '.MuiInputLabel-root': {
                             fontSize: "1.2rem"
-                        }
+                        },width: "100%"
                     }} />
                 </Box>
-                <Box sx={{ mx: "auto", mt: "2rem" }}>
-                    <TextField
-                        id="standard-multiline-static"
-                        name="message" value={form2.message} onChange={handleChange}
-                        multiline
-                        rows={4}
-                        column={10}
-
-
-                        variant="standard"
-
-
-                        sx={{
-                            width: "35rem",
-                            maxWidth: "80%",
-                             minHeight:"10rem" ,height:"100%",
-                            '.MuiInputLabel-root': {
-                                fontSize: "1.2rem"
-                            }, '.css-66dh3a-MuiInputBase-input-MuiInput-input': {
-                                fontSize: "1.3rem", fontWeight: "normal", color: "primary.light"
-                            },
-                            '.css-v4x57p-MuiInputBase-root-MuiInput-root': {
-                                lineHeight: "1.8rem", maxWidth: "36rem",minHeight:"10rem" ,height:"100%"
-                            }
-
-
-
-                        }}
-
-                    />
+                <Box sx={{ mt: "1rem", mx: "1rem", flex: 1, width: "100%", display: "flex", justifyContent: "center"}}>
+                     <textarea className="text" name="message" onChange={handleChange} value={form2.message} placeholder="write your message" col="60" row="50" style={{ width: "100%", height: "10rem", fontSize: "1.3rem", p: "0.5rem" }}></textarea>
 
                 </Box>
                 <Button onClick={handleSubmit} sx={{ bgcolor: "primary2-main", mt: "2rem", borderRadius: "10px" }} variant="contained">
