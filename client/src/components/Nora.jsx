@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box, Typography, Stack } from '@mui/material'
-import photo6 from './img/6.png'
+import owen from './img/6.png'
 import { useEffect } from 'react';
 import { motion, } from 'framer-motion'
 function JohnSmith() {
@@ -48,7 +48,7 @@ function JohnSmith() {
             <Box component={motion.div}
                 initial={initial}
                 whileInView={whileInView} sx={{ my: "3rem", display: "flex", justifyContent: "center", flexDirection: { xs: "column", sm: "row" }, p: "1.5rem", gap: "2rem", maxWidth: { xs: "100%", sm: "70%" }, mx: { xs: "1.5rem", sm: "auto" } }}>
-                <motion.img initial={preHover} whileHover={hovered} src={photo6} style={{ borderRadius: "20px", maxWidth: "auto", minHeight: "auto" }} />
+                <motion.img initial={preHover} whileHover={hovered} src={owen} style={{ borderRadius: "20px", maxWidth: "auto", minHeight: "auto" }} />
                 <Box sx={{ my: "1rem" }}>
                     <Typography variant='h2'>Nora Owen</Typography>
                     <Typography variant='h6' sx={{ fontFamily: "Jost", color: "primary.light", mb: "1.4rem" }}>Designer</Typography>
