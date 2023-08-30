@@ -2,11 +2,11 @@ import React from 'react'
 import { Box, Typography, useMediaQuery, Button, Stack, TextField } from '@mui/material'
 import './style/Style.css'
 import vector from './img/vector.png'
-import photo1 from './img/2.png'
-import photo2 from './img/3.png'
-import photo3 from './img/4.png'
-import photo4 from './img/5.png'
-import photo5 from './img/6.png'
+import old from './img/2.png'
+import sofa from './img/3.png'
+import john from './img/4.png'
+import julie from './img/5.png'
+import owen from './img/6.png'
 import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
@@ -156,7 +156,7 @@ function About() {
                     </Button>
                 </Box>
                 <Box>
-                    <motion.img initial={preHover} whileHover={hovered} src={photo1} style={{ maxWidth: "25rem", width: "95%", minHeight: "10rem", margin: "auto", border: "none" }} />
+                    <motion.img initial={preHover} whileHover={hovered} src={old} style={{ maxWidth: "25rem", width: "95%", minHeight: "10rem", margin: "auto", border: "none" }} />
                 </Box>
             </Box>
             <Box
@@ -166,7 +166,7 @@ function About() {
 
                 sx={{ display: "flex", justifyContent: "center", mx: 'auto', px: "1rem", flexDirection: { xs: "column", md: "row" }, textAlign: { xs: "center", md: "inherit" }, gap: "2rem", mt: "3rem" }}>
                 <Box>
-                    <motion.img initial={preHover} whileHover={hovered} src={photo2} style={{ maxWidth: "25rem", width: "95%", minHeight: "10rem", margin: "auto", borderRadius: "25px" }} />
+                    <motion.img initial={preHover} whileHover={hovered} src={sofa} style={{ maxWidth: "25rem", width: "95%", minHeight: "10rem", margin: "auto", borderRadius: "25px" }} />
                 </Box>
                 <Box>
                     <Typography variant="h4" sx={{ color: "primary.main" }}>The End Result</Typography>
@@ -192,8 +192,8 @@ function About() {
                 <Box sx={{ m: "5rem" }}>
                     <Typography sx={{ textAlign: "center" }} variant="h2">What the People Thinks<br />About Us</Typography>
                     <Box sx={{ display: "flex", gap: "1rem", mt: "2rem", flexWrap: "wrap", textAlign: "center", justifyContent: "center", }}>
-                        <motion.img initial={preHover} whileHover={hovered} onClick={() => handleClick("JohnSmith")} style={{ maxWidth: "10rem", height: "16rem", borderRadius: "20px", }} src={photo3} />
-                        <motion.img initial={preHover} whileHover={hovered} onClick={() => handleClick("Nattasha")} style={{ maxWidth: "10rem", height: "16rem", borderRadius: "20px" }} src={photo4} />
+                        <motion.img initial={preHover} whileHover={hovered} onClick={() => handleClick("JohnSmith")} style={{ maxWidth: "10rem", height: "16rem", borderRadius: "20px", }} src={john} />
+                        <motion.img initial={preHover} whileHover={hovered} onClick={() => handleClick("Nattasha")} style={{ maxWidth: "10rem", height: "16rem", borderRadius: "20px" }} src={julie} />
                         <Box component={motion.div} initial={preHover} whileHover={hovered} sx={{ textAlign: "center", p: "1.3rem", height: "16rem", maxWidth: "10rem", bgcolor: "white", borderRadius: "20px" }}>
                             <Typography variant='h6'>Nattasha Julie</Typography>
                             <Typography variant='h6' sx={{ fontFamily: "Jost", color: "primary.light", fontSize: "0.8rem" }}>Design, Australia</Typography>
@@ -210,7 +210,7 @@ function About() {
                             </Stack>
                             <Typography variant='h6' sx={{ fontFamily: "Jost", color: "primary.light", fontSize: "0.8rem" }}>+1(378)4001234<br /> Julie@Interno.com</Typography>
                         </Box>
-                        <motion.img initial={preHover} whileHover={hovered} onClick={() => handleClick("Nora")} style={{ maxWidth: "10rem", height: "16rem", borderRadius: "20px" }} src={photo5} />
+                        <motion.img initial={preHover} whileHover={hovered} onClick={() => handleClick("Nora")} style={{ maxWidth: "10rem", height: "16rem", borderRadius: "20px" }} src={owen} />
 
 
 
