@@ -23,7 +23,7 @@ function Contact() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        const response = axios.post("http://localhost:3000/", form).then((res) => {
+        const response = axios.post("https://interior-home.vercel.app/", form).then((res) => {
             console.log(res)
 
         })
