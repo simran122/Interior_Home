@@ -58,7 +58,7 @@ function Homepage() {
                 component={motion.div}
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
-                transition={{ duration: 0.4 }}
+                transition={{ duration: 0.2 }}
                 sx={{
                     maxWidth: "100%", minHeight: "auto", backgroundImage: `url(${photo})`, backgroundSize: { xs: "auto 500px", sm: "cover" }, backgroundPosition: "center center", backgroundRepeat: "no-repeat", objectFit: "contain", mt: "1.8rem", py: { xs: "3rem", sm: "4rem", md: "3rem", lg: "14rem" },
                     borderRadius: { lg: " 0 0 0 18rem" }
