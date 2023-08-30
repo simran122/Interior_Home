@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react'
 import { Box, Typography, Button, Stack, Input, FormControl } from '@mui/material'
 import './style/Style.css'
 import vector from './img/vec.png'
-import photo from './img/photo.png'
+import photo from './img/phot.png'
 import axios from 'axios'
 import { motion, } from 'framer-motion';
 function Contact() {
