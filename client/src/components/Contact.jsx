@@ -2,8 +2,8 @@ import React from 'react'
 import { useState, useEffect } from 'react'
 import { Box, Typography, Button, Stack, Input, FormControl } from '@mui/material'
 import './style/Style.css'
-import vector1 from './img/vector2.png'
-import photo25 from './img/25.png'
+import vector from './img/vector2.png'
+import photo from './img/25.png'
 import axios from 'axios'
 import { motion, } from 'framer-motion';
 function Contact() {
@@ -162,7 +162,7 @@ function Contact() {
 
                                 <Button onClick={handleSubmit} sx={{ mb: { xs: "2rem", sm: "2rem", md: 0, }, bgcolor: "primary.main", width: "10rem", borderRadius: "20px" }} variant="contained">
                                     <Typography sx={{ color: "white", textTransform: "none", mr: "0.5rem", fontFamily: "Jost" }} variant='h6'> Send Now</Typography>
-                                    <img src={vector1} alt='vector' />
+                                    <img src={vector} alt='vector' />
                                 </Button>
 
 
@@ -176,7 +176,7 @@ function Contact() {
             <Box component={motion.div}
                 initial={initial}
                 whileInView={whileInView} sx={{ display: "flex", justifyContent: "center", p: "1.3rem", mx: "auto", position: "relative", maxWidth: "100%", mb: "2rem" }}>
-                <img src={photo25} style={{ width: "50rem", maxWidth: "100%", borderRadius: "28px" }} />
+                <img src={photo} style={{ width: "50rem", maxWidth: "100%", borderRadius: "28px" }} />
 
 
 
