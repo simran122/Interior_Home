@@ -25,7 +25,7 @@ app.post('/', async (req, res) => {
     console.log(req.body)
     const newUser = new Detail(req.body)
     await newUser.save()
-        .then((res) => console.log(res))
+        .then((response) => console.log(response))
         .catch(err => console.log(err))
 
 
