@@ -87,7 +87,7 @@ function About() {
 
                 whileInView={{
                     opacity: 1, y: 0, transition: {
-                        duration: 0.6, delay: 0.1, ease: easeing
+                        duration: 0.6,  ease: easeing
                     }
                 }}
                 sx={{ backgroundImage: `url(${lamp})`, maxWidht: "100%", minHeight: "22rem", objectFit: "contain", position: "relative" }}>
@@ -267,7 +267,7 @@ function About() {
                                 fontSize: "1.3rem", fontWeight: "normal", color: "primary.light"
                             },
                             '.css-v4x57p-MuiInputBase-root-MuiInput-root': {
-                                lineHeight: "1.8rem", maxWidth: "36rem"
+                                lineHeight: "1.8rem", maxWidth: "36rem",minHeight:"10rem" ,height:"100%"
                             }
 
 
