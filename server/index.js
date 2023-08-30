@@ -28,9 +28,7 @@ app.post('/', async (req, res) => {
 
 
 })
-app.use("/" ,(req,res)=>{
-    res.send("hello")
-})
+
 
 
 
