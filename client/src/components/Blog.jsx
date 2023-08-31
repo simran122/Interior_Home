@@ -153,7 +153,7 @@ function Blog() {
                                 <FormControl sx={{ display: "flex", flexDirection: "column", gap: "1.3rem", }}>
                                     <Input id="my-input" name="name" value={form1.name} onChange={handleChange} aria-describedby="my-helper-text" placeholder='Name' inputProps={{
                                         style: {
-                                            height: "2rem", fontSize: "1.3rem", color: "black", fontFamily: "DM Serif Display", opacity: 0.8
+                                            height: "3rem", fontSize: "1.3rem", color: "black", fontFamily: "DM Serif Display", opacity: 0.8
                                         },
                                     }} sx={{ maxWidth: "100%" }} />
 
@@ -161,7 +161,7 @@ function Blog() {
                                 <FormControl sx={{ display: "flex", flexDirection: "column", }}>
                                     <Input id="my-input" name="email" value={form1.email} onChange={handleChange} aria-describedby="my-helper-text" placeholder='Email' inputProps={{
                                         style: {
-                                            height: "2rem", fontSize: "1.3rem", color: "black", fontFamily: "DM Serif Display", opacity: 0.8
+                                            height: "3rem", fontSize: "1.3rem", color: "black", fontFamily: "DM Serif Display", opacity: 0.8
                                         },
                                     }} sx={{ maxWidth: "100%" }} />
 
@@ -172,7 +172,7 @@ function Blog() {
                                 <FormControl sx={{ display: "flex", flexDirection: "column", gap: "1.3rem", }}>
                                     <Input id="my-input" name="website" value={form1.website} onChange={handleChange} aria-describedby="my-helper-text" placeholder='Website' inputProps={{
                                         style: {
-                                            height: "2rem", fontSize: "1.3rem", color: "black", fontFamily: "DM Serif Display", opacity: 0.8
+                                            height: "3rem", fontSize: "1.3rem", color: "black", fontFamily: "DM Serif Display", opacity: 0.8
                                         },
                                     }} sx={{ maxWidth: "100%" }} />
 
@@ -180,7 +180,7 @@ function Blog() {
                                 <FormControl sx={{ display: "flex", flexDirection: "column", }}>
                                     <Input id="my-input" name="phone" value={form1.phone} onChange={handleChange} aria-describedby="my-helper-text" placeholder='Phone' inputProps={{
                                         style: {
-                                            height: "2rem", fontSize: "1.3rem", color: "black", fontFamily: "DM Serif Display", opacity: 0.8
+                                            height: "3rem", fontSize: "1.3rem", color: "black", fontFamily: "DM Serif Display", opacity: 0.8
                                         },
                                     }} sx={{ maxWidth: "100%" }} />
                                 </FormControl>
