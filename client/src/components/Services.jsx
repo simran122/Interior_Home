@@ -42,7 +42,10 @@ function Services() {
         <>
             <Box component={motion.div}
                 initial={initial}
-                whileInView={whileInView}
+                whileInView={{  opacity: 1, y: 0, transition: {
+            duration: 0.2, ease: easeing
+        }
+                             }}
                 sx={{ backgroundImage: `url(${flower})`, maxWidht: "100%", minHeight: "22rem", objectFit: "contain", position: "relative" }}>
                 <Box sx={{ maxWidth: "32rem", textAlign: "center", backgroundColor: "white", position: "absolute", border: "0 solid transparent", left: "50%", bottom: 0, transform: "translate(-50%,0)", px: { xs: "1rem", sm: "2rem" }, py: "1rem", borderRadius: "20px 20px 0 0" }}>
                     <Typography variant='h4' sx={{ color: "primary.main" }}>Services</Typography>
