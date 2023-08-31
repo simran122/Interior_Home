@@ -225,7 +225,7 @@ function About() {
 
                 sx={{ mx: "auto", my: "4rem", textAlign: "center", width: "100%", maxWidth: "40rem", display: "flex", justifyContent: "center", flexDirection: "column", alignItems: "center", p: "1rem" }}>
                 <Typography variant='h2'>Creative project? Let's have a<br />productive talk.</Typography>
-                <Box sx={ display: "flex", gap: "2rem", my: "3rem", justifyContent: "center", flexDirection: { xs: "column", sm: "row" }, flex: 1, mx: "1rem", width: "100%" }}>
+                <Box sx={{ display: "flex", gap: "2rem", my: "3rem", justifyContent: "center", flexDirection: { xs: "column", sm: "row" }, flex: 1, mx: "1rem", width: "100%" }}>
                     <TextField id="standard-basic" label="Name" variant="standard" name="name" value={form2.name} onChange={handleChange} inputProps={{
                         style: {
                             height: "3rem", fontSize: "1.3rem", color: "black", fontFamily: "DM Serif Display", opacity: 1
