@@ -228,7 +228,7 @@ function About() {
                 <Box sx={{mx: "auto", display: "flex", gap: "2rem", my: "3rem", justifyContent: "center", flexDirection: { xs: "column", sm: "row" }, flex: 1, mx: "1rem", width: "100%" }}>
                     <TextField id="standard-basic" label="Name" variant="standard" name="name" value={form2.name} onChange={handleChange} inputProps={{
                         style: {
-                            height: "2rem", fontSize: "1.3rem", color: "black", fontFamily: "DM Serif Display", opacity: 1
+                            height: "3rem", fontSize: "1.3rem", color: "black", fontFamily: "DM Serif Display", opacity: 1
                         },
                     }} sx={{
                         '.MuiInputLabel-root': {
@@ -237,7 +237,7 @@ function About() {
                     }} />
                     <TextField id="standard-basic" label="Email" type="email" variant="standard" name="email" value={form2.email} onChange={handleChange} inputProps={{
                         style: {
-                            height: "2rem", fontSize: "1.3rem", color: "black", fontFamily: "DM Serif Display", opacity: 1
+                            height: "3rem", fontSize: "1.3rem", color: "black", fontFamily: "DM Serif Display", opacity: 1
                         },
                     }} sx={{
                         '.MuiInputLabel-root': {
