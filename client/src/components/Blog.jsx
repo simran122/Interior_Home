@@ -69,7 +69,10 @@ function Blog() {
         <>
             <Box component={motion.div}
                 initial={initial}
-                whileInView={whileInView} sx={{ backgroundImage: `url(${door})`, maxWidht: "100%", minHeight: "22rem", objectFit: "contain", position: "relative" }} />
+                whileInView={{  opacity: 1, y: 0, transition: {
+            duration: 0.2, ease: easeing
+        }
+                             }} sx={{ backgroundImage: `url(${door})`, maxWidht: "100%", minHeight: "22rem", objectFit: "contain", position: "relative" }} />
             <Box sx={{ display: "flex", justifyContent: "center", mx: "auto", my: "4rem", gap: "1.5rem", px: "1rem" }}>
                 <Box component={motion.div}
                     initial={initial}
