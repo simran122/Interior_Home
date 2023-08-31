@@ -81,13 +81,13 @@ function About() {
                     y: -60,
                     opacity: 0,
                     transition: {
-                        duration: 0.6, ease: easeing
+                        duration: 0.3, ease: easeing
                     }
                 }}
 
                 whileInView={{
                     opacity: 1, y: 0, transition: {
-                        duration: 0.6,  ease: easeing
+                        duration: 0.2,  ease: easeing
                     }
                 }}
                 sx={{ backgroundImage: `url(${lamp})`, maxWidht: "100%", minHeight: "22rem", objectFit: "contain", position: "relative" }}>
