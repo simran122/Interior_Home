@@ -27,6 +27,7 @@ mongoose.connect(mongoDB)
 
 app.post('/', async (req, res) => {
     console.log(req.body)
+   res.json(req.body)
     const newUser = new Detail(req.body)
     await newUser.save()
         .then((response) => console.log(response))
@@ -38,12 +39,7 @@ app.post('/', async (req, res) => {
 
 })
 
-app.get("/",(req,res)=>{
 
-   res.send("hello")
-   console.log(working)
-}
-   )
 
 
 app.listen(3000, () => {
