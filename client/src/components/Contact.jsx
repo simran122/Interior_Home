@@ -132,14 +132,14 @@ function Contact() {
                                 <FormControl sx={{ display: "flex", flexDirection: "column", gap: "1.3rem", }}>
                                     <Input id="my-input" name="name" onChange={handleChange} value={form.name} aria-describedby="my-helper-text" placeholder='Name' inputProps={{
                                         style: {
-                                            height: "2rem", fontSize: "1.3rem", color: "black", fontFamily: "DM Serif Display", opacity: 0.8
+                                            height: "3rem", fontSize: "1.3rem", color: "black", fontFamily: "DM Serif Display", opacity: 0.8
                                         },
                                     }} sx={{ maxWidth: "100%" }} required />
                                 </FormControl>
                                 <FormControl sx={{ display: "flex", flexDirection: "column", gap: "1.3rem", }}>
                                     <Input id="my-input" name="email" onChange={handleChange} value={form.email} aria-describedby="my-helper-text" placeholder='Email' inputProps={{
                                         style: {
-                                            height: "2rem", fontSize: "1.3rem", color: "black", fontFamily: "DM Serif Display", opacity: 0.8
+                                            height: "3rem", fontSize: "1.3rem", color: "black", fontFamily: "DM Serif Display", opacity: 0.8
                                         },
                                     }} sx={{ maxWidth: "100%" }} required />
                                 </FormControl>
@@ -149,14 +149,14 @@ function Contact() {
                                 <FormControl sx={{ display: "flex", flexDirection: "column", gap: "1.3rem", }}>
                                     <Input id="my-input" name="website" onChange={handleChange} value={form.website} aria-describedby="my-helper-text" placeholder='Website' inputProps={{
                                         style: {
-                                            height: "2rem", fontSize: "1.3rem", color: "black", fontFamily: "DM Serif Display", opacity: 0.8
+                                            height: "3rem", fontSize: "1.3rem", color: "black", fontFamily: "DM Serif Display", opacity: 0.8
                                         },
                                     }} sx={{ maxWidth: "100%" }} required />
                                 </FormControl>
                                 <FormControl sx={{ display: "flex", flexDirection: "column", gap: "1.3rem", }}>
                                     <Input id="my-input" name="phone" onChange={handleChange} value={form.phone} aria-describedby="my-helper-text" placeholder='Phone' inputProps={{
                                         style: {
-                                            height: "2rem", fontSize: "1.3rem", color: "black", fontFamily: "DM Serif Display", opacity: 0.8
+                                            height: "3rem", fontSize: "1.3rem", color: "black", fontFamily: "DM Serif Display", opacity: 0.8
                                         },
                                     }} sx={{ maxWidth: "100%" }} required />
                                 </FormControl>
